@@ -12,7 +12,7 @@ const statusColors: Record<TopicStatus, string> = {
 
 const statusTooltips: Record<TopicStatus, string> = {
   open: 'Currently in discussion',
-  next: 'Under development',
+  next: 'Scheduled for an upcoming Global R&D',
   completed: 'Already completed',
   closed: 'No longer under consideration',
 };
