@@ -6,6 +6,16 @@
 
 This project is hosted on-chain and is available at [jyjde-bqaaa-aaaap-abcda-cai.icp0.io](https://jyjde-bqaaa-aaaap-abcda-cai.icp0.io/).
 
+## As an example project and workflow
+
+In addition to running as a real-world service, this project is designed to be an ideal starting point for building a full-stack Motoko dapp with a [live reload](https://blog.logrocket.com/complete-guide-full-stack-live-reload/) workflow.
+
+**Related projects:**
+
+1. [`mo-dev`](https://github.com/dfinity/motoko-dev-server) provides live reloading for Motoko canisters.
+2. [Vite + React + Motoko](https://github.com/rvanasa/vite-react-motoko) is a beginner-friendly starter project that was originally used for this repository.
+
+
 ## Local Development
 
 Make sure that [Node.js](https://nodejs.org/en/) `>= 16.x` and the latest version of [`dfx`](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove) are installed on your system.
@@ -33,8 +43,8 @@ When ready, run `dfx deploy` to build and deploy the application.
 
 **Back-end Service:**
 - [Motoko](https://github.com/dfinity/motoko#readme): a safe and simple programming language for the Internet Computer
+- [Mops](https://mops.one): an on-chain community package manager for Motoko
 - [mo-dev](https://github.com/dfinity/motoko-dev-server#readme): a live reload development server for Motoko
-- [MOPS](https://j4mwm-bqaaa-aaaam-qajbq-cai.ic0.app/): an on-chain community package manager for Motoko
 
 ---
 
